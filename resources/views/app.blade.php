@@ -12,6 +12,9 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+    <!-- Vuetify CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vuetify/1.5.13/vuetify.min.css">
+
     <link href="{{ asset('css/app.css') }}">
 
     <!-- Styles -->
