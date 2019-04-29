@@ -8,10 +8,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+    <!-- FONT -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
     <!-- Vuetify CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vuetify/1.5.13/vuetify.min.css">
 
@@ -22,9 +20,7 @@
 </head>
 
 <body>
-    <div id="app">
-        <example-component></example-component>
-    </div>
+    <div id="app"></div>
 
     <script src="{{asset('js/app.js')}}"></script>
 </body>
