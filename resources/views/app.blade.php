@@ -20,6 +20,17 @@
 </head>
 
 <body>
+    <script>
+        window.fbAsyncInit = function() {
+            FB.init({
+                appId: '293979627968914',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v3.3'
+            });
+        };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
     <div id="app"></div>
 
     <script src="{{asset('js/app.js')}}"></script>
