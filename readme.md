@@ -8,6 +8,8 @@ abandonned cards on your store.
 
 the application is still on the erlier stages of development.
 
+this new contribution
+
 ## License
 
 [MIT license](https://opensource.org/licenses/MIT).
